@@ -2,7 +2,7 @@
 #include <string>
 using namespace std; // c'est une facon de eviter de devoir prefixer les objet standar avc std::
 
-int main2() {
+int ex0() {
 	string hello;
 	cout << "saisie qlq chose : " << "\n";
 	getline(cin,hello);

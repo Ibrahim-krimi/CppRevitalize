@@ -8,7 +8,7 @@ struct carType {
 } car1, car2;
 
 
-int main() {
+int ex3() {
 
 
 	car1.brand = "Tesla";
