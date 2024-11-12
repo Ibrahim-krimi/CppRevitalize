@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int ex4() {
+void ex4() {
 	
 	string food = "pizza";
 	string* ptr = &food;
@@ -17,5 +17,4 @@ int ex4() {
 
 	cout << ptr << endl;
 
-	return 0;
 }

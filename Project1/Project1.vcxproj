@@ -127,10 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FirstClass.h" />
+    <ClCompile Include="fonction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainForFirstClass.cpp" />
+    <ClCompile Include="mainForInhertiance.cpp" />
     <ClCompile Include="math.cpp" />
     <ClCompile Include="pointeurs.cpp" />
     <ClCompile Include="structure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Emlpoye.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

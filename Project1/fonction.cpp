@@ -5,7 +5,3 @@ using namespace std;
 void myfunction() {
 	cout << "test";
 }
-
-int main() {
-
-}
