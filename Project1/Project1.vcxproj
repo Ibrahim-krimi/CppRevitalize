@@ -132,13 +132,18 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainForFirstClass.cpp" />
     <ClCompile Include="mainForInhertiance.cpp" />
+    <ClCompile Include="mainForPoly.cpp" />
     <ClCompile Include="math.cpp" />
     <ClCompile Include="pointeurs.cpp" />
     <ClCompile Include="structure.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Emlpoye.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Triangle.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -5,7 +5,7 @@
 using namespace std; 
 
 
-int main() {
+int ex7() {
 
 	Car mycar;
 	mycar.bip();
