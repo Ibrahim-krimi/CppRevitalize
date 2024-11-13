@@ -10,7 +10,7 @@
 using namespace std;
 
 
-int main() {
+int ex9() {
 
 	vector<Shape*> shapes;
 	shapes.push_back(new Circle(4.5));
